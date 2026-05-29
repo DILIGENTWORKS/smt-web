@@ -1,0 +1,142 @@
+.events {
+  width: 100%;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.events-header {
+  background: linear-gradient(135deg, #c0392b 0%, #e67e22 100%);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.events-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.events-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.events-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.event-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.event-card.special {
+  border-top: 4px solid #e74c3c;
+}
+
+.event-card.festival {
+  border-top: 4px solid #f39c12;
+}
+
+.event-card.regular {
+  border-top: 4px solid #3498db;
+}
+
+.event-type {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #c0392b;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.event-name {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 15px 0 10px 0;
+}
+
+.event-date {
+  color: #c0392b;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.event-description {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.events-cta {
+  background: white;
+  padding: 60px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.events-cta h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.events-cta p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background: linear-gradient(135deg, #c0392b 0%, #e67e22 100%);
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(192, 57, 43, 0.4);
+}
+
+@media (max-width: 768px) {
+  .events-header h1 {
+    font-size: 2rem;
+  }
+
+  .events-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .events-cta h2 {
+    font-size: 1.5rem;
+  }
+}

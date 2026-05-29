@@ -1,0 +1,120 @@
+.about {
+  width: 100%;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.about-header {
+  background: linear-gradient(135deg, #c0392b 0%, #e67e22 100%);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.about-content {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-section {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #c0392b;
+  padding-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-section li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  color: #555;
+  font-size: 1.1rem;
+  position: relative;
+  padding-left: 30px;
+}
+
+.about-section li:before {
+  content: "🙏";
+  position: absolute;
+  left: 0;
+  font-size: 1.2rem;
+}
+
+.charity-info {
+  background: linear-gradient(135deg, #c0392b 0%, #e67e22 100%);
+  color: white;
+  padding: 40px;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+
+.charity-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.charity-info p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.charity-info strong {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .about-header h1 {
+    font-size: 2rem;
+  }
+
+  .about-section {
+    padding: 25px;
+  }
+
+  .about-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .charity-info {
+    padding: 25px;
+  }
+
+  .charity-info h3 {
+    font-size: 1.5rem;
+  }
+}

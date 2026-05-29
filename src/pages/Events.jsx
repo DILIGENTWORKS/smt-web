@@ -4,6 +4,13 @@ import './Events.css';
 const Events = () => {
   const events = [
     {
+      id: 4,
+      name: 'Vaikasi Visakam',
+      date: '30/05/2026',
+      description: 'Birth anniversary of Lord Murugan',
+      type: 'Festival'
+    },
+    {
       id: 1,
       name: 'Maha Kumbabishikam',
       date: 'Coming Soon',
@@ -23,13 +30,6 @@ const Events = () => {
       date: 'Bi-weekly',
       description: 'Special worship for Lord Shiva',
       type: 'Regular'
-    },
-    {
-      id: 4,
-      name: 'Vaikasi Visakam',
-      date: '30/05/2026',
-      description: 'Birth anniversary of Lord Murugan',
-      type: 'Festival'
     },
     {
       id: 5,

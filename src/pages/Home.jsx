@@ -6,12 +6,12 @@ const Home = () => {
   
   const slides = [
     {
-      image: '/SMTMurugan2.png',
+      image: '/smt-web/SMTMurugan2.png',
       title: 'Sri Sivasubramaniya Swami Trust',
       subtitle: 'Advancing Hindu Culture & Spirituality in Croydon'
     },
     {
-      image: '/SMTMurugan.jpeg',
+      image: '/smt-web/SMTMurugan.jpeg',
       title: 'Sri Sivasubramaniya Swami Trust',
       subtitle: 'Advancing Hindu Culture & Spirituality in Croydon'
     }

@@ -1,16 +1,62 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Home.css';
 
 const Home = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  
+  const slides = [
+    {
+      image: '/SMTMurugan2.png',
+      title: 'Sri Sivasubramaniya Swami Trust',
+      subtitle: 'Advancing Hindu Culture & Spirituality in Croydon'
+    },
+    {
+      image: '/SMTMurugan.jpeg',
+      title: 'Sri Sivasubramaniya Swami Trust',
+      subtitle: 'Advancing Hindu Culture & Spirituality in Croydon'
+    }
+  ];
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, [slides.length]);
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
+  };
+
   return (
     <div className="home">
       <div className="hero-slider">
-        <div className="slide">
-          <img src="/SMTMurugan.jpeg" alt="Sri Sivasubramaniya Swami" className="hero-image" />
-          <div className="hero-overlay">
-            <h1>Sri Sivasubramaniya Swami Trust</h1>
-            <p>Advancing Hindu Culture & Spirituality in Croydon</p>
+        {slides.map((slide, index) => (
+          <div 
+            key={index} 
+            className={`slide ${index === currentSlide ? 'active' : ''}`}
+          >
+            <img src={slide.image} alt={slide.title} className="hero-image" />
+            <div className="hero-overlay">
+              <h1>{slide.title}</h1>
+              <p>{slide.subtitle}</p>
+            </div>
           </div>
+        ))}
+        <button className="slider-arrow prev" onClick={prevSlide}>&#10094;</button>
+        <button className="slider-arrow next" onClick={nextSlide}>&#10095;</button>
+        <div className="slider-dots">
+          {slides.map((_, index) => (
+            <span 
+              key={index} 
+              className={`dot ${index === currentSlide ? 'active' : ''}`}
+              onClick={() => setCurrentSlide(index)}
+            ></span>
+          ))}
         </div>
       </div>
 

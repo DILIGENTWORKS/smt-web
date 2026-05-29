@@ -23,7 +23,7 @@ const Navbar = () => {
             <Link to="/contact" className="nav-link">Contact & Times</Link>
           </li>
           <li className="nav-item">
-            <a href="https://sumup.link/YOUR_SUMUP_LINK" target="_blank" rel="noopener noreferrer" className="donate-button">Donate</a>
+            <a href="https://pay.sumup.com/b2c/QP0H1UDY" target="_blank" rel="noopener noreferrer" className="donate-button">Donate</a>
           </li>
         </ul>
       </div>  

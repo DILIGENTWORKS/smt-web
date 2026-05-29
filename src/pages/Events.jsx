@@ -70,7 +70,7 @@ const Events = () => {
       <div className="events-cta">
         <h2>Book a Pooja Sponsorship</h2>
         <p>Sponsor a pooja for special occasions and receive blessings</p>
-        <button className="cta-button">Contact Us for Sponsorship</button>
+        <a href="https://wa.me/447990760189" target="_blank" rel="noopener noreferrer" className="cta-button">Contact Us for Sponsorship</a>
       </div>
     </div>
   );

@@ -83,4 +83,10 @@
     padding: 10px 20px;
     display: block;
   }
+
+  .donate-button {
+    padding: 12px 25px;
+    width: 100%;
+    text-align: center;
+  }
 }

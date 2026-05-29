@@ -28,7 +28,7 @@ const Contact = () => {
 
               <div className="info-item">
                 <h3>✉️ Email</h3>
-                <p>smt.croydon@gmail.com</p>
+                <p>info@sivasubramaniyatemple.org.uk</p>
               </div>
 
               <div className="info-item">

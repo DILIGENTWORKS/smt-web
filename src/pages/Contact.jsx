@@ -57,7 +57,7 @@ const Contact = () => {
             <h2>Find Us</h2>
             <div className="map-container">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.1234567890123!2d-0.1234567890123456!3d51.12345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876075f5a5a5a5a%3A0x5a5a5a5a5a5a5a5a!2sHoly+Saviour+Church!5e0!3m2!1sen!2suk!4v1234567890123!5m2!1sen!2suk"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2489.1234567890123!2d-0.1234567890123456!3d51.12345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876075f5a5a5a5a%3A0x5a5a5a5a5a5a5a5a!2s115+St+Saviours+Rd%2C+Croydon+CR0+2XF%2C+UK!5e0!3m2!1sen!2suk!4v1234567890123!5m2!1sen!2suk"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}

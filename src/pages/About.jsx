@@ -27,21 +27,38 @@ const About = () => {
           </div>
 
           <div className="about-section">
-            <h2>Our Mission</h2>
+            <h2>Our Vision</h2>
             <p>
-              To provide a sacred space for worship, spiritual growth, and cultural 
-              preservation. We aim to serve the community through religious ceremonies, 
-              educational programs, and charitable activities that benefit society.
+              To establish and nurture a spiritually vibrant Murugan Temple rooted in South Indian traditions and Agama principles, serving as a sacred center of worship, cultural preservation, community harmony, and Hindu spiritual learning for present and future generations in Croydon and across the United Kingdom.
+            </p>
+            <p className="inspiration">
+              Inspired by the timeless values of<br />
+              <strong>"யாதும் ஊரே யாவரும் கேளிர்"</strong> (Yadum Oore Yavarum Kelir) — "Every place is our home, and all people are our kin" —<br />
+              and<br />
+              <strong>"லோகா சமஸ்தா சுகினோ பவந்து"</strong> (Lokah Samastah Sukhino Bhavantu) — "May all beings everywhere be happy and free",
+            </p>
+            <p>
+              the temple aspires to serve humanity with inclusiveness, compassion, devotion, and universal brotherhood.
             </p>
           </div>
 
           <div className="about-section">
-            <h2>Our Vision</h2>
+            <h2>Our Mission</h2>
             <p>
-              To be a center of excellence in Hindu spiritual practice and cultural 
-              heritage, where devotees can find peace, guidance, and spiritual 
-              enlightenment. We envision a community rooted in traditional values while 
-              embracing the future.
+              The Murugan Temple was founded by 14 like-minded devotees with the collective vision of creating a sacred spiritual home dedicated to Lord Murugan, guided by authentic South Indian temple traditions and Agama Shastras.
+            </p>
+            <p>Our mission is to:</p>
+            <ul>
+              <li>Provide a divine and spiritually uplifting place of worship for devotees and the wider community.</li>
+              <li>Preserve, practice, and promote Hindu theology, values, traditions, and dharmic principles in the UK.</li>
+              <li>Pass on the spiritual, cultural, and ethical foundations of Hinduism to future generations through active engagement and education.</li>
+              <li>Foster an inclusive environment that welcomes people from all backgrounds, communities, and generations.</li>
+              <li>Serve the broader community beyond religious functions by promoting cultural, educational, charitable, and social initiatives in and around the Croydon region.</li>
+              <li>Encourage unity, compassion, seva (selfless service), and shared community responsibility.</li>
+              <li>Build a sustainable institution that balances spirituality, tradition, culture, education, and community welfare.</li>
+            </ul>
+            <p>
+              The temple stands not only as a place of worship, but also as a beacon of cultural continuity, spiritual growth, and community service for all.
             </p>
           </div>
 

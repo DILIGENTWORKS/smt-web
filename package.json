@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://diligentworks.github.io/smt-web/",
+  "homepage": "https://sivasubramaniyatemple.org.uk",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

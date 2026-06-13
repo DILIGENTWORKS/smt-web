@@ -5,10 +5,10 @@ const Events = () => {
   const events = [
     {
       id: 4,
-      name: 'Vaikasi Visakam',
-      date: '30/05/2026',
-      description: 'Birth anniversary of Lord Murugan',
-      type: 'Festival'
+      name: 'Weekly Special Pooja',
+      date: 'Every Saturday',
+      description: 'There will be Ganapathy and Lakshmi homam, abisheham, pooja and archana followed by served prasatham.',
+      type: 'Special'
     },
     {
       id: 1,

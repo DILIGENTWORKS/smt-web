@@ -55,6 +55,12 @@ const Events = () => {
       </div>
 
       <div className="events-container">
+        <div className="events-cta">
+          <h2>Book a Pooja Sponsorship</h2>
+          <p>Sponsor a pooja for special occasions and receive blessings</p>
+          <a href="https://wa.me/447990760189" target="_blank" rel="noopener noreferrer" className="cta-button">Contact Us for Sponsorship</a>
+        </div>
+
         <div className="events-grid">
           {events.map((event) => (
             <div key={event.id} className={`event-card ${event.type.toLowerCase()}`}>
@@ -65,12 +71,6 @@ const Events = () => {
             </div>
           ))}
         </div>
-      </div>
-
-      <div className="events-cta">
-        <h2>Book a Pooja Sponsorship</h2>
-        <p>Sponsor a pooja for special occasions and receive blessings</p>
-        <a href="https://wa.me/447990760189" target="_blank" rel="noopener noreferrer" className="cta-button">Contact Us for Sponsorship</a>
       </div>
     </div>
   );

@@ -1,0 +1,207 @@
+.temple-notice-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.temple-notice-modal {
+  background: white;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.notice-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #f0f0f0;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+  z-index: 10;
+}
+
+.notice-close:hover {
+  background: #e0e0e0;
+}
+
+.notice-content {
+  padding: 40px;
+}
+
+.notice-content h2 {
+  color: #c0392b;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 3px solid #e67e22;
+  padding-bottom: 15px;
+}
+
+.notice-message {
+  background: #fff8f0;
+  padding: 20px;
+  border-left: 4px solid #e67e22;
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
+
+.notice-message p {
+  margin: 0 0 10px 0;
+  line-height: 1.6;
+  color: #555;
+}
+
+.notice-message p:last-child {
+  margin-bottom: 0;
+}
+
+.donation-options {
+  margin-bottom: 25px;
+}
+
+.donation-options h3 {
+  color: #333;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.donation-option {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.option-number {
+  background: linear-gradient(135deg, #c0392b 0%, #e67e22 100%);
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.option-content {
+  flex: 1;
+}
+
+.option-content p {
+  margin: 0 0 10px 0;
+  line-height: 1.6;
+  color: #555;
+}
+
+.bank-details {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+
+.bank-details p {
+  margin: 5px 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.donate-button-inline {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 24px;
+  background: linear-gradient(135deg, #e67e22 0%, #c0392b 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  border: 2px solid white;
+  box-shadow: 0 2px 8px rgba(192, 57, 43, 0.3);
+}
+
+.donate-button-inline:hover {
+  background: linear-gradient(135deg, #c0392b 0%, #e67e22 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(192, 57, 43, 0.5);
+}
+
+.notice-dismiss {
+  width: 100%;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #c0392b 0%, #e67e22 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.notice-dismiss:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(192, 57, 43, 0.4);
+}
+
+@media (max-width: 768px) {
+  .notice-content {
+    padding: 25px;
+  }
+
+  .notice-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .donation-option {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .option-number {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
+  }
+}

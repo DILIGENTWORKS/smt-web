@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import TempleNotice from './components/TempleNotice';
 import Home from './pages/Home';
 import Events from './pages/Events';
 import About from './pages/About';
@@ -11,6 +12,7 @@ function App() {
   return (
     <Router basename="/">
       <div className="app">
+        <TempleNotice />
         <Navbar />
         <main className="main-content">
           <Routes>

@@ -57,8 +57,8 @@ const Events = () => {
       <div className="events-container">
         <div className="events-cta">
           <h2>Book a Pooja Sponsorship</h2>
-          <p>Sponsor a pooja for special occasions and receive blessings</p>
-          <a href="https://wa.me/447990760189" target="_blank" rel="noopener noreferrer" className="cta-button">Contact Us for Sponsorship</a>
+          <p>Sponsor weekly pooja to receive blessings</p>
+          <a href="https://wa.me/447990760189" target="_blank" rel="noopener noreferrer" className="cta-button">Sponsor</a>
         </div>
 
         <div className="events-grid">

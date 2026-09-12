@@ -6,7 +6,7 @@ const ExecutiveMembers = () => {
     'Sundar Venkataraman - Permanent EC (Founding trustee)',
     'Adalarasan Jayavelu',
     'Angai Srini',
-    'Guru',
+    'Guru Baskaran',
     'Jyothi Arun',
     'Loganathan Maruthaiveeran',
     'Meenakshi Sudhir',

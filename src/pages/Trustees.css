@@ -32,22 +32,23 @@
 
 .trustees-list {
   background: white;
-  padding: 40px;
+  padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
 }
 
 .trustee-item {
   display: flex;
   align-items: center;
-  padding: 15px 0;
-  border-bottom: 1px solid #eee;
-  font-size: 1.2rem;
+  padding: 10px 12px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  font-size: 1rem;
   color: #333;
-}
-
-.trustee-item:last-child {
-  border-bottom: none;
+  background: #fafafa;
 }
 
 .trustee-number {
@@ -68,6 +69,7 @@
 
   .trustees-list {
     padding: 25px;
+    grid-template-columns: 1fr;
   }
 
   .trustee-item {

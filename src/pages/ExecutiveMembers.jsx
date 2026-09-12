@@ -16,7 +16,7 @@ const ExecutiveMembers = () => {
     'RamPriya Gnanasekar',
     'Kalai Rekha Rajesh',
     'SivaPriya Shivaram',
-    'Sugumar',
+    'Sugumaran Ponnusamy',
     'Sundar Pari',
     'Vatshala Arun'
   ];

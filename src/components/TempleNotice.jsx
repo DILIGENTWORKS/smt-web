@@ -48,6 +48,14 @@ const TempleNotice = () => {
                 </div>
               </div>
             </div>
+            
+            <div className="donation-option">
+              <div className="option-number">3</div>
+              <div className="option-content">
+                <p>Fill out our pledge form to commit your support:</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6r9pCSgypENPhh_0PaWzV1znsiLwazMCODiOOrY8GtO8XbA/viewform" target="_blank" rel="noopener noreferrer" className="donate-button-inline">Pledge Form</a>
+              </div>
+            </div>
           </div>
           
           <button className="notice-dismiss" onClick={handleClose}>

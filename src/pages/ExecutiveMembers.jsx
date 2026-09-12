@@ -3,6 +3,7 @@ import './ExecutiveMembers.css';
 
 const ExecutiveMembers = () => {
   const executiveMembers = [
+    'Sundar - Permanent EC (Founding trustee)',
     'Adal',
     'Angai',
     'Guru',
@@ -16,7 +17,6 @@ const ExecutiveMembers = () => {
     'Rekha',
     'SivaPriya',
     'Sugumar',
-    'Sundar - Permanent EC (Founding trustee)',
     'Sundar Pari',
     'Vatshala'
   ];

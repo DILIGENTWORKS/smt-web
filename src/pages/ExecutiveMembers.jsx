@@ -4,21 +4,21 @@ import './ExecutiveMembers.css';
 const ExecutiveMembers = () => {
   const executiveMembers = [
     'Sundar - Permanent EC (Founding trustee)',
-    'Adal',
-    'Angai',
+    'Adalarasan Jayavelu',
+    'Angai Maruthavanan',
     'Guru',
     'Jyothi Arun',
     'Loganathan Maruthaiveeran',
-    'PonSudhakar',
+    'Meenakshi Sudhir',
+    'PonSudhakar Kamaraj',
     'Pragadeesh',
-    'Rajee',
     'Rajee Logananthan',
-    'Ram Priya',
-    'Rekha',
-    'SivaPriya',
+    'RamPriya Gnanasekar',
+    'Kalai Rekha Rajesh',
+    'SivaPriya Shivaram',
     'Sugumar',
     'Sundar Pari',
-    'Vatshala'
+    'Vatshala Arun'
   ];
 
   return (

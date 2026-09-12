@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
+  const [isTeamDropdownOpen, setIsTeamDropdownOpen] = useState(false);
+
+  const toggleTeamDropdown = () => {
+    setIsTeamDropdownOpen(!isTeamDropdownOpen);
+  };
+
   return (
     <nav className="navbar">
       <div className="nav-container">
@@ -18,6 +24,20 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <Link to="/about" className="nav-link">About Us</Link>
+          </li>
+          <li className="nav-item dropdown">
+            <button className="nav-link dropdown-toggle" onClick={toggleTeamDropdown}>
+              Team
+              <span className="dropdown-arrow">▼</span>
+            </button>
+            <ul className={`dropdown-menu ${isTeamDropdownOpen ? 'show' : ''}`}>
+              <li>
+                <Link to="/trustees" className="dropdown-link">Trustees</Link>
+              </li>
+              <li>
+                <Link to="/executive-members" className="dropdown-link">Executive Members</Link>
+              </li>
+            </ul>
           </li>
           <li className="nav-item">
             <Link to="/contact" className="nav-link">Contact & Times</Link>

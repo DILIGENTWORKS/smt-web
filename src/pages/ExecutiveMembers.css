@@ -1,0 +1,76 @@
+.executive-members {
+  width: 100%;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.executive-members-header {
+  background: linear-gradient(135deg, #c0392b 0%, #e67e22 100%);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.executive-members-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.executive-members-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.executive-members-content {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.executive-members-list {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.executive-member-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.executive-member-item:last-child {
+  border-bottom: none;
+}
+
+.executive-member-number {
+  font-weight: bold;
+  color: #c0392b;
+  margin-right: 15px;
+  min-width: 40px;
+}
+
+.executive-member-name {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .executive-members-header h1 {
+    font-size: 2rem;
+  }
+
+  .executive-members-list {
+    padding: 25px;
+  }
+
+  .executive-member-item {
+    font-size: 1.1rem;
+  }
+}

@@ -20,7 +20,7 @@ const ExecutiveMembers = () => {
     'Sivapriya Shivaram',
     'Sugumaran Ponnusamy',
     'Sundar Pari',
-    'SukhiPriya',
+    'SukhiPriya Kappa',
     'Vatshala Arun'
   ];
 

@@ -12,6 +12,7 @@ const ExecutiveMembers = () => {
     'Meenakshi Sudhir',
     'PonSudhakar Kamaraj',
     'Pragatheeswaran Rathinavelu',
+    'Priya Kalyan',
     'Rajeshwari Venkataraman',
     'RamPriya Gnanasekar',
     'Kalai Rekha Rajesh',

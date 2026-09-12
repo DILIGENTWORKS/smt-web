@@ -14,11 +14,13 @@ const ExecutiveMembers = () => {
     'Pragatheeswaran Rathinavelu',
     'Priya Kalyan',
     'Rajeshwari Venkataraman',
+    'Ramalakshmi Mahadevan',
     'RamPriya Gnanasekar',
     'Kalai Rekha Rajesh',
     'Sivapriya Shivaram',
     'Sugumaran Ponnusamy',
     'Sundar Pari',
+    'SukhiPriya',
     'Vatshala Arun'
   ];
 
